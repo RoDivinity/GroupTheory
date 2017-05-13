@@ -1,7 +1,18 @@
 # GroupTheory
 Implementations of group theory 
-
-  * Check digits
+a)Error Checking Methods
+  * Most used in checking digit of serial number
+  Common error table:
+  Type         |         Form       |        Frequency*
+  ___________________________________________________________
+  single              a -> b                  79.1%
+  tranposition       ab -> ba                 10.2%
+  jump transpose    abc -> cba                 0.8%
+  double             aa -> bb                  0.5%
+  phonetic          1a <-> a0 (a: 2->9)        0.5%
+  double jump       aba -> cbc                 0.3%
+  
+  
    1) UPC scheme
       => Implement the use of weight on position of digit. 
       
