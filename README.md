@@ -31,4 +31,10 @@ a)Error Checking Methods
    
    
   * Test for prime
+  
+ By Fermat's Little Theorem,
+   10^p mod p = 10 mod p.
+   Implementation an algorithm to check for "prime"-ness?
+   
+  
   * RSA encryption
